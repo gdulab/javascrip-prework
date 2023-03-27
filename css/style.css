@@ -1,3 +1,29 @@
+.container {
+  max-width: 400px;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
 
+.gamespace {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.gamespace #messages {
+  text-align: center;
+  font-size: 54px;
+}
+.gamespace #buttons {
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.gamespace #buttons button {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGdCQUFBO0VBQ0EsYUFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtBQ0NKOztBREVBO0VBQ0ksa0JBQUE7RUFDQSxRQUFBO0VBQ0EsMkJBQUE7QUNDSjtBREFJO0VBQ0ksa0JBQUE7RUFDQSxlQUFBO0FDRVI7QURBSTtFQUNJLGFBQUE7RUFDQSw4QkFBQTtFQUNBLG1CQUFBO0VBQ0EsYUFBQTtBQ0VSO0FERFE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0FDR1oiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

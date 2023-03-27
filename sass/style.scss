@@ -1,0 +1,27 @@
+.container {
+    max-width: 400px;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+}
+
+.gamespace {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    #messages {
+        text-align: center;
+        font-size: 54px;
+    }
+    #buttons {
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        button {
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+        }
+    }
+}
